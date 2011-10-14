@@ -19,6 +19,7 @@
     "default_title": "Action Title",     // optional; shown in tooltip
     "default_popup": "src/popup.html"    // optional
   },
+  "content_security_policy": "default_src 'self'",
 
   // http://code.google.com/chrome/extensions/pageAction.html
   /*
@@ -27,6 +28,7 @@
     "default_title": "Action Title",     // optional; shown in tooltip
     "default_popup": "src/popup.html"    // optional
   },
+  "content_security_policy": "default_src 'self'",
   */
 
   // http://code.google.com/chrome/extensions/themes.html
@@ -79,6 +81,7 @@
       "local_path": "src/main.html"
     }
   },
+  "content_security_policy": "default_src 'self'",
   */
 
   /*****************************************************************************
